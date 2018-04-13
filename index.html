@@ -1,0 +1,45 @@
+<!-- 
+    Author: Rounak Kayathwal (http://alivexhd.com)
+    GitHub: https://github.com/alivexhd
+
+    Use this script however you want! :) 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS - Add Text Field with unique ID on Button Click</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        .btn{
+            background-color: darkslategray;
+            color: white;
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+        #btnContainer{
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr;
+        }
+        .options{
+            width: 300px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="addNew" class="btn">Add New Option</button>
+    <br><br>
+    <div id="btnContainer"></div>
+    <br>
+    <input type="submit" class="btn">
+</body>
+    <script src="main.js"></script>
+</html>
